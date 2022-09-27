@@ -1,10 +1,32 @@
+body{
+  display:grid;
+  place-items: center;
+  min-height: 100vh;
+}
+
 .cont{
-  height: 150px;
-  width: 50px;
-  border: solid black;
-  background-color: aqua;
-  margin-left: 75px;
-  margin-top: 50px;
-  padding: 15px;
-  align-items: center;
+  border: solid rgb(18, 122, 163);
+  background-color: rgba(21, 184, 162, 0.671);
+  padding: 25px;
+  border-radius: 15px;
+}
+.t{
+  font-size: 35px;
+  margin-block: -0px;
+  text-shadow: 2px 2px white;
+}
+.n{
+  font-size: 65px;
+  font-style: oblique;
+  text-align: center;
+
+}
+.bnt{ 
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.747);
+  color: rgb(0, 72, 100);  
+  border: solid 1.5px;
+  font-family: 'Franklin Gothic Medium', sans-serif;
+
+
 }

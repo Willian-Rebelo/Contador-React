@@ -17,10 +17,11 @@ export default function App () {
     }
 
     return <section className="cont">
-        <h1>Contador</h1>
-        <p>{numero}</p>
-        <button onClick={aumentar}>mais</button>
-        <button onClick={diminuir}>menos</button>
-        <button onClick={zerar}>zerar</button>
+        <h1 className="t">Contador</h1>
+        <p className="n">{numero}</p>
+        <button className="bnt" onClick={aumentar}>Mais</button>
+        <button className="bnt" onClick={diminuir}>Menos</button>
+        <button className="bnt" onClick={zerar}>Zerar</button>
     </section>
+    
 }
