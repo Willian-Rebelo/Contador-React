@@ -4,7 +4,7 @@ body{
   min-height: 100vh;
   margin: 0;
 	padding: 0;
-	background-color: #0e6cc4;
+	background-color: #1b63cf;
 	overflow-x:hidden;
 	overflow-y:hidden;
 }
@@ -147,14 +147,13 @@ body{
   }
 }
 .cont{
-  border: solid rgb(0, 0, 0);
   background-color: #25a7d7;
   padding: 25px;
   border-radius: 10px;
+  background-image: linear-gradient(50deg, white, #25a7d7, #0004ff );
   outline-style: groove;
-  outline-color: rgba(255, 255, 255, 0.678);
+  outline-color: rgba(255, 255, 255, 0.952);
   outline-width: 7px;
-  border: none;
 }
 .t{
   font-size: 35px;
