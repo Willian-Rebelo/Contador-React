@@ -148,7 +148,7 @@ body{
 }
 .cont{
   border: solid rgb(0, 0, 0);
-  background-color: rgba(21, 184, 162, 0.671);
+  background-color: #25a7d7;
   padding: 25px;
   border-radius: 10px;
   outline-style: groove;
@@ -176,6 +176,12 @@ body{
   font-family:Verdana, Geneva, Tahoma, sans-serif;
   font-size: 15px; 
   margin-left: 2px;
-  border-bottom: 2px solid #0026ff;
+  border-bottom: 3px solid #0e6cc4;
   font-style:italic;
+  transition-duration: 0.4s;
+}
+.bnt:hover {
+  background-color: #0004ff;
+  color: white;
+
 }
