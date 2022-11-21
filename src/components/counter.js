@@ -1,6 +1,5 @@
 import { useState } from "react";
-import "./App.css"
-import Counter from "./components/counter"
+import "../counter.css"
 
 export default function App () {
 
@@ -16,20 +15,13 @@ export default function App () {
     function zerar () {
         setNumero (numero - numero)
     }
-    
 
-    return (
-        <div>
-    <section className="cont">
+    return <section className="cont">
         <h1 className="t">Contador</h1>
         <p className="n">{numero}</p>
         <button className="bnt" onClick={aumentar}>Mais</button>
         <button className="bnt" onClick={diminuir}>Menos</button>
         <button className="bnt" onClick={zerar}>Zerar</button>
-        
-
     </section>
-        <Counter />
-    </div>
-    )
+
 }
